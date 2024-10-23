@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.adside1{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.adside1 .ads1{
+    width: 160px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 10px 5px;
+}
+
+
+
+.adside2{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.adside2 .ads2{
+    width: 160px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 10px 5px;
+}
+
+
+
+
+
+.midinformation{
+    width: 59%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+   
+    
+}
+.adscontainerUp{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.adscontainerUp .ads3{
+    width: 468px;
+    height: 60px;
+    border: 2px solid black;
+    margin: 5px 0px;
+}
+.information{
+    width: 50%;
+    height: 100%;
+    border: 3px double #133FED ;
+    margin-top: 20px;
+    padding: 20px;
+}
+.information h2{
+    color: #133FED;
+}
+.information a{
+    color: white;
+    font-weight: 600;
+    background-color: #133FED;
+    padding: 5px;
+    margin-top: 40px;
+    display: block;
+    font-size: 22px;
+    letter-spacing: 1.8px;
+    transition: 0.7s;
+}
+.information a:hover{
+    box-shadow: 0px 0px 15px red;
+}
+
+.verify{
+    width: 50%;
+    height: 100%;
+    border: 3px double #133FED ;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.verify label{
+    color: #333;
+    font-weight: 600;
+    font-size: 22px;
+}
+.verify input{
+    width: 90%;
+    height: 40px;
+    font-size: 22px;
+    padding: 5px;
+    outline: 0;
+    border: 2px solid #133FED;
+    margin:20px auto ;
+}
+
+.verify button{
+    display: block;
+    width: 200px;
+    align-self: center;
+    height: 40px;
+    border: 0;
+    font-size: 18px;
+    padding: 5px;
+    letter-spacing: 1.8px;
+    background: linear-gradient(#133FED,#828CFD,#0635BB);
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.verify button:hover{
+    background: linear-gradient(#0635BB,#828CFD,#133FED);
+}
+
+
+
+
+
+
+
+.adscontainerDown{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+
+}
+.adscontainerDown .ads4{
+    width: 468px;
+    height: 60px;
+    border: 2px solid black;
+    margin: 5px 0px;
+}
+
+
+#finalButton{
+    display: block;
+    width: 230px;
+    padding: 5px;
+    font-size: 20px;
+    float: right;
+    margin: 20px;
+    background-color: #133FED;
+    color: #fff;
+    border: 1.5px solid #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#finalButton:hover{
+    filter: blur(1px);
+}

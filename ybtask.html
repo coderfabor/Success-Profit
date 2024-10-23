@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Success Profit</title>
+    <link rel="icon" href="others/profits.png">
+    <link rel="stylesheet" href="css/stylesecond.css">
+</head>
+<body>
+    <section id="titleSection">
+    <div class="title1">
+        <h1>1-Youtube Task</h1>
+        <img src="others/youtubeLogo.png" alt="YoutubeLogo" class="ytImage">
+    </div>
+   </section>
+    <div class="container">
+        <div class="pictures">
+            <img src="others/yt-task-1.PNG" alt="task-pic1">
+            <img src="others/yt-task-2.PNG" alt="task-pic2">
+        </div> 
+    <section id="instructionsSection">
+        <div class="instructions">
+            <ul>
+                <li class="active">Instructions :</li>
+                <li>1- Open youtube and search for : 操作の王</li>
+                <li>2- Watch the video for 1 min</li>
+                <li>3- Put like and subscribe</li>
+                <li>4- Write a positive comment</li>
+                <li>5- How many times was this word mentioned in the video?: "感情" or "emotions"</li>
+                <li class="active">Please check below!</li>
+            </ul>
+        </div>
+   </section>
+        <div class="verfication">
+            <div class="title2">
+                <h2>verification :</h2>
+            </div>
+            <div class="inputBox">
+                <label for="words">How many times was that word mentioned in the video?</label>
+                <input type="number"  id="words" placeholder="number of times ...">
+                <button onclick="wordsnumber(),vrai1()" id="checkWord">Check</button>
+                <label for="urlvd">Enter Url of the video like: https://youtu.be/tEu_uuWXNd...</label>
+                <input type="text"  id="urlvd" placeholder="video url ...">
+                <button onclick="verfUrl(), vrai1()" id="checkurl">Check</button>
+            </div>
+        </div>
+    </div>
+    <button onclick="go2()" id="btnNext">Next Task  <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></button>
+    
+    
+    <button id="btnBottom"><a href="#instructionsSection"><i class="fa-solid fa-arrow-down" style="color: #fff;"></i></a></button>
+    <button id="btnTop"><a href="#titleSection"><i class="fa-solid fa-arrow-up" style="color: #fff;"></i></a></button>
+   
+
+<script src="fct.js"></script>
+</body>
+</html>
